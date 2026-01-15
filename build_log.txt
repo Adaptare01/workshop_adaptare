@@ -1,0 +1,16 @@
+
+> workshop-ia-joaçaba---landing-page@0.0.0 build
+> vite build
+
+[36mvite v6.4.1 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 3 modules transformed.
+[31m✗[39m Build failed in 95ms
+[31merror during build:
+[31m[vite:css] [postcss] It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.[31m
+file: [36mD:/Adaptare area de trabalho/Workshops 2026/Workshop ia negócios e Kids/src/index.css:undefined:NaN[31m
+    at Ha (file:///D:/Adaptare%20area%20de%20trabalho/Workshops%202026/Workshop%20ia%20neg%C3%B3cios%20e%20Kids/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:38:1643)
+    at LazyResult.runOnRoot (D:\Adaptare area de trabalho\Workshops 2026\Workshop ia negócios e Kids\node_modules\postcss\lib\lazy-result.js:361:16)
+    at LazyResult.runAsync (D:\Adaptare area de trabalho\Workshops 2026\Workshop ia negócios e Kids\node_modules\postcss\lib\lazy-result.js:290:26)
+    at LazyResult.async (D:\Adaptare area de trabalho\Workshops 2026\Workshop ia negócios e Kids\node_modules\postcss\lib\lazy-result.js:192:30)
+    at LazyResult.then (D:\Adaptare area de trabalho\Workshops 2026\Workshop ia negócios e Kids\node_modules\postcss\lib\lazy-result.js:436:17)[39m
